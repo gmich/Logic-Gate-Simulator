@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Logic.Gate.Simulator.Core.CircuitGraph
+namespace Logic.Gate.Simulator.Core
 {
     public class CircuitVertex
     {

@@ -43,6 +43,11 @@
     <Compile Include="Assertions\Argument.cs" />
     <Compile Include="Assertions\AssertAttribute.cs" />
     <Compile Include="Assertions\ClassExtensions.cs" />
+    <Compile Include="Common\FlowExtensions.cs" />
+    <Compile Include="Gates\AND.cs" />
+    <Compile Include="Gates\LogicGate.cs" />
+    <Compile Include="Gates\OR.cs" />
+    <Compile Include="Gates\GateFlow.cs" />
     <Compile Include="Infrastructure\CompilationSymbol.cs" />
     <Compile Include="Assertions\DebugArgument.cs" />
     <Compile Include="CircuitGraph\Circuit.cs" />
@@ -57,9 +62,7 @@
     <Compile Include="Gates\IGate.cs" />
     <Compile Include="Common\ICircuitComponent.cs" />
     <Compile Include="Common\IFlow.cs" />
-    <Compile Include="Common\IOutput.cs" />
-    <Compile Include="Common\IInput.cs" />
-    <Compile Include="Common\ISource.cs" />
+    <Compile Include="Sources\ISource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

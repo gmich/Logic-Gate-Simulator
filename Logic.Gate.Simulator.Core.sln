@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic.Gate.Simulator.Core", "Logic.Gate.Simulator.Core\Logic.Gate.Simulator.Core.csproj", "{6956DF8F-FFE6-4FAC-8DF9-7A328437225A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic.Gate.Simulator.Core.Tests", "Logic.Gate.Simulator.Core.Tests\Logic.Gate.Simulator.Core.Tests.csproj", "{8F0242B2-B414-43DA-A9F8-6DC7324C4955}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6956DF8F-FFE6-4FAC-8DF9-7A328437225A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6956DF8F-FFE6-4FAC-8DF9-7A328437225A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6956DF8F-FFE6-4FAC-8DF9-7A328437225A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F0242B2-B414-43DA-A9F8-6DC7324C4955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0242B2-B414-43DA-A9F8-6DC7324C4955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0242B2-B414-43DA-A9F8-6DC7324C4955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0242B2-B414-43DA-A9F8-6DC7324C4955}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

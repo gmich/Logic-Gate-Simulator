@@ -4,6 +4,6 @@ namespace Logic.Gate.Simulator.Core
 {
     public interface ICircuitComponent
     {
-        Result<IOutput> Trigger(IEnumerable<IInput> inputs);
+        Result<IFlow> Trigger(IEnumerable<IFlow> inputs);
     }
 }

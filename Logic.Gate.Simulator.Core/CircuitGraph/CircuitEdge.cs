@@ -1,4 +1,4 @@
-﻿namespace Logic.Gate.Simulator.Core.CircuitGraph
+﻿namespace Logic.Gate.Simulator.Core
 {
     public class CircuitEdge
     {

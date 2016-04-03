@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
-using System.Threading.Tasks;
-using System.Linq;
 
-namespace Cldn.Infrastructure.Results
+namespace Logic.Gate.Simulator.Core
 {
 
     public class LazyResult
