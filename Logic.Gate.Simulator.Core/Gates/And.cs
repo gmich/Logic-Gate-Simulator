@@ -3,10 +3,8 @@ using System.Collections.Generic;
 
 namespace Logic.Gate.Simulator.Core.Gates
 {
-    public class AND : IGate
+    internal class AND : IGate
     {
-        internal AND() { }
-
         public Result<IFlow> Trigger(IEnumerable<IFlow> inputs)
         {
             foreach (var input in inputs)

@@ -2,9 +2,8 @@
 
 namespace Logic.Gate.Simulator.Core.Gates
 {
-    public class OR : IGate
+    internal class OR : IGate
     {
-        internal OR() { }
 
         public Result<IFlow> Trigger(IEnumerable<IFlow> inputs)
         {

@@ -1,4 +1,4 @@
-﻿namespace Logic.Gate.Simulator.Core.Gates
+﻿namespace Logic.Gate.Simulator.Core
 {
     public interface IGate : ICircuitComponent
     {

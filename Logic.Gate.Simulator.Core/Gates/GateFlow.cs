@@ -1,6 +1,6 @@
 ﻿namespace Logic.Gate.Simulator.Core.Gates
 {
-    public class GateFlow : IFlow
+    internal class GateFlow : IFlow
     {
         internal GateFlow(int value)
         {
